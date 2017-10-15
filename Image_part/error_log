@@ -1,0 +1,272 @@
+[17-Mar-2017 09:38:05 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home4/swain/public_html/photo_new/includes/database.php on line 9
+[17-Mar-2017 09:39:14 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home4/swain/public_html/photo_new/includes/database.php on line 9
+[17-Mar-2017 09:50:06 America/Chicago] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'swain'@'localhost' to database 'facebook' in /home4/swain/public_html/photo_new/includes/database.php on line 9
+[17-Mar-2017 09:52:09 America/Chicago] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'swain'@'localhost' to database 'facebook' in /home4/swain/public_html/photo_new/includes/database.php on line 9
+[17-Mar-2017 10:00:28 America/Chicago] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'swain'@'localhost' to database 'Swain_facebook' in /home4/swain/public_html/photo_new/includes/database.php on line 9
+[17-Mar-2017 10:00:31 America/Chicago] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'swain'@'localhost' to database 'Swain_facebook' in /home4/swain/public_html/photo_new/includes/database.php on line 9
+[17-Mar-2017 10:00:37 America/Chicago] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'swain'@'localhost' to database 'Swain_facebook' in /home4/swain/public_html/photo_new/includes/database.php on line 9
+[17-Mar-2017 10:00:41 America/Chicago] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'swain'@'localhost' to database 'Swain_facebook' in /home4/swain/public_html/photo_new/includes/database.php on line 9
+[17-Mar-2017 14:40:51 America/Chicago] PHP Warning:  require_once(../../../../php/lib/PHPImageWorkshop/ImageWorkshop.php): failed to open stream: No such file or directory in /home4/swain/public_html/photo_new/merge.php on line 13
+[17-Mar-2017 14:40:51 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../../../../php/lib/PHPImageWorkshop/ImageWorkshop.php' (include_path='.:/opt/php56/lib/php') in /home4/swain/public_html/photo_new/merge.php on line 13
+[17-Mar-2017 14:42:05 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "../mains/nepal.png" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[17-Mar-2017 14:42:43 America/Chicago] PHP Warning:  imagepng(../merged/final.png): failed to open stream: No such file or directory in /home4/swain/public_html/photo_new/merge.php on line 40
+[17-Mar-2017 14:59:28 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home4/swain/public_html/photo_new/test2.php on line 41
+[17-Mar-2017 23:54:47 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home4/swain/public_html/photo_new/test2.php on line 41
+[19-Mar-2017 12:53:25 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[19-Mar-2017 12:55:36 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[21-Mar-2017 07:28:52 America/Chicago] PHP Warning:  imagepng(../test1/electionlumbini/rupandehi/sjn.png): failed to open stream: No such file or directory in /home4/swain/public_html/photo_new/test2.php on line 127
+[21-Mar-2017 07:41:07 America/Chicago] PHP Warning:  imagepng(../test1/pitures/election/lumbini/gulmi/sjnkkk.png): failed to open stream: No such file or directory in /home4/swain/public_html/photo_new/test2.php on line 127
+[21-Mar-2017 07:50:16 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "sh.png" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[21-Mar-2017 07:55:21 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "sjnll.png" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[21-Mar-2017 08:07:20 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "sjnll.png" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[21-Mar-2017 16:47:32 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home4/swain/public_html/photo_new/test2.php on line 41
+[24-Mar-2017 05:23:13 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home4/swain/public_html/photo_new/test2.php on line 41
+[24-Mar-2017 05:24:56 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home4/swain/public_html/photo_new/test2.php on line 41
+[24-Mar-2017 07:57:52 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/swain/public_html/photo_new/test_32.php on line 249
+[24-Mar-2017 07:59:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/swain/public_html/photo_new/test_32.php on line 249
+[24-Mar-2017 08:04:01 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/swain/public_html/photo_new/test_32.php on line 249
+[24-Mar-2017 08:07:02 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/swain/public_html/photo_new/test_32.php on line 249
+[24-Mar-2017 08:07:06 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/swain/public_html/photo_new/test_32.php on line 249
+[24-Mar-2017 08:12:04 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/swain/public_html/photo_new/test_32.php on line 249
+[24-Mar-2017 08:25:05 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/all.php on line 108
+[24-Mar-2017 08:27:36 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/swain/public_html/photo_new/all.php on line 163
+[24-Mar-2017 08:27:48 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/swain/public_html/photo_new/all.php on line 163
+[24-Mar-2017 08:29:33 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/swain/public_html/photo_new/all.php on line 163
+[24-Mar-2017 08:31:53 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/swain/public_html/photo_new/all.php on line 162
+[24-Mar-2017 08:32:38 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/all.php on line 118
+[24-Mar-2017 08:33:56 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/swain/public_html/photo_new/all.php on line 161
+[24-Mar-2017 08:35:50 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/all.php on line 126
+[24-Mar-2017 09:33:14 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test_32.php on line 299
+[24-Mar-2017 09:34:02 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "bangkok1.jpg" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[24-Mar-2017 09:34:56 America/Chicago] PHP Fatal error:  __clone method called on non-object in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLayer.php on line 1814
+[24-Mar-2017 10:03:33 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home4/swain/public_html/photo_new/test2.php on line 41
+[24-Mar-2017 10:21:23 America/Chicago] PHP Parse error:  syntax error, unexpected 'src' (T_STRING), expecting ',' or ';' in /home4/swain/public_html/photo_new/all.php on line 120
+[24-Mar-2017 11:39:26 America/Chicago] PHP Parse error:  syntax error, unexpected '"&w=300&zc=2 alt="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home4/swain/public_html/photo_new/all.php on line 121
+[25-Mar-2017 01:52:33 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home4/swain/public_html/photo_new/test2.php on line 41
+[27-Mar-2017 12:50:21 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home4/swain/public_html/photo_new/test2.php on line 41
+[27-Mar-2017 12:50:36 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home4/swain/public_html/photo_new/test2.php on line 41
+[27-Mar-2017 12:50:37 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home4/swain/public_html/photo_new/test2.php on line 41
+[05-Apr-2017 07:17:28 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[05-Apr-2017 07:32:53 America/Chicago] PHP Warning:  copy(templates/Name.png): failed to open stream: No such file or directory in /home4/swain/public_html/photo_new/payment.php on line 18
+[05-Apr-2017 07:33:47 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home4/swain/public_html/photo_new/test2.php on line 41
+[05-Apr-2017 07:34:01 America/Chicago] PHP Warning:  copy(templates/Name.png): failed to open stream: No such file or directory in /home4/swain/public_html/photo_new/payment.php on line 18
+[05-Apr-2017 07:48:36 America/Chicago] PHP Warning:  copy(templates/.png): failed to open stream: No such file or directory in /home4/swain/public_html/photo_new/payment.php on line 18
+[05-Apr-2017 09:03:25 America/Chicago] PHP Parse error:  syntax error, unexpected ''ffffff'' (T_CONSTANT_ENCAPSED_STRING) in /home4/swain/public_html/photo_new/test2.php on line 119
+[05-Apr-2017 09:04:16 America/Chicago] PHP Warning:  copy(../test/pictures/election/dhaulagiri/baglung/rajessh.png): failed to open stream: No such file or directory in /home4/swain/public_html/photo_new/payment.php on line 16
+[05-Apr-2017 09:04:27 America/Chicago] PHP Warning:  scandir(../test/pictures/election/dhaulagiri/baglung/): failed to open dir: No such file or directory in /home4/swain/public_html/photo_new/all.php on line 105
+[05-Apr-2017 09:04:28 America/Chicago] PHP Warning:  scandir(): (errno 2): No such file or directory in /home4/swain/public_html/photo_new/all.php on line 105
+[05-Apr-2017 09:04:28 America/Chicago] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home4/swain/public_html/photo_new/all.php on line 106
+[05-Apr-2017 09:04:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/swain/public_html/photo_new/all.php on line 115
+[06-Apr-2017 07:47:00 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[06-Apr-2017 07:47:01 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[06-Apr-2017 07:47:01 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[06-Apr-2017 07:47:01 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[06-Apr-2017 07:47:01 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[06-Apr-2017 07:47:01 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[06-Apr-2017 07:47:01 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[08-Apr-2017 07:48:03 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[08-Apr-2017 07:48:03 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[08-Apr-2017 07:48:03 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[08-Apr-2017 07:48:03 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[08-Apr-2017 07:48:03 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[08-Apr-2017 07:48:03 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[08-Apr-2017 07:48:03 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[08-Apr-2017 07:48:04 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[08-Apr-2017 07:48:04 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[08-Apr-2017 07:48:04 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[08-Apr-2017 07:48:04 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[08-Apr-2017 07:48:04 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[08-Apr-2017 07:48:04 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[08-Apr-2017 07:48:04 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[11-Apr-2017 07:48:22 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[11-Apr-2017 07:48:22 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[11-Apr-2017 07:48:22 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[11-Apr-2017 07:48:22 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[11-Apr-2017 07:48:22 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[11-Apr-2017 07:48:22 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[11-Apr-2017 07:48:22 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[16-Apr-2017 07:47:25 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[16-Apr-2017 07:47:25 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[16-Apr-2017 07:47:25 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[16-Apr-2017 07:47:25 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[16-Apr-2017 07:47:25 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[16-Apr-2017 07:47:25 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[16-Apr-2017 07:47:25 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[17-Apr-2017 22:11:44 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/swain/public_html/photo_new/test2.php on line 180
+[17-Apr-2017 22:15:28 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[17-Apr-2017 22:15:28 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[17-Apr-2017 22:15:28 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[17-Apr-2017 22:15:28 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[17-Apr-2017 22:15:28 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[17-Apr-2017 22:15:28 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[17-Apr-2017 22:15:28 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[17-Apr-2017 22:17:48 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[17-Apr-2017 22:17:48 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[17-Apr-2017 22:17:48 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[17-Apr-2017 22:17:48 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[17-Apr-2017 22:17:48 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[17-Apr-2017 22:17:48 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[17-Apr-2017 22:17:48 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[17-Apr-2017 22:18:29 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[17-Apr-2017 22:18:29 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[17-Apr-2017 22:18:29 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[17-Apr-2017 22:18:29 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[17-Apr-2017 22:18:29 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[17-Apr-2017 22:18:29 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[17-Apr-2017 22:18:29 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[17-Apr-2017 22:46:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home4/swain/public_html/photo_new/test2.php on line 101
+[17-Apr-2017 22:47:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home4/swain/public_html/photo_new/test2.php on line 101
+[17-Apr-2017 22:47:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home4/swain/public_html/photo_new/test2.php on line 101
+[19-Apr-2017 05:48:42 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[21-Apr-2017 10:44:51 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test_32.php on line 337
+[21-Apr-2017 10:45:31 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test_32.php on line 337
+[21-Apr-2017 10:45:32 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test_32.php on line 337
+[21-Apr-2017 10:45:38 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test_32.php on line 337
+[21-Apr-2017 10:46:31 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test_32.php on line 337
+[22-Apr-2017 01:24:36 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home4/swain/public_html/photo_new/test2.php on line 201
+[22-Apr-2017 01:39:14 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home4/swain/public_html/photo_new/test2.php on line 201
+[22-Apr-2017 01:41:28 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home4/swain/public_html/photo_new/test2.php on line 201
+[22-Apr-2017 01:45:06 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home4/swain/public_html/photo_new/test2.php on line 201
+[22-Apr-2017 02:18:32 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home4/swain/public_html/photo_new/test2.php on line 160
+[22-Apr-2017 02:18:42 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home4/swain/public_html/photo_new/test2.php on line 160
+[22-Apr-2017 02:18:57 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home4/swain/public_html/photo_new/test2.php on line 160
+[22-Apr-2017 02:20:05 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [3]: Can't open the file at "http://graph.facebook.com//picture?type=large&height=500&width=500" : file is not readable, did you check permissions (755 / 777) ?
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 62
+[22-Apr-2017 02:29:56 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test_32.php on line 388
+[22-Apr-2017 02:29:58 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test_32.php on line 388
+[22-Apr-2017 02:30:10 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test_32.php on line 388
+[22-Apr-2017 02:30:11 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test_32.php on line 388
+[23-Apr-2017 06:28:41 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test_32.php on line 353
+[23-Apr-2017 06:29:22 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test_32.php on line 364
+[23-Apr-2017 06:30:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'value' (T_STRING) in /home4/swain/public_html/photo_new/test_32.php on line 360
+[23-Apr-2017 06:36:52 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/swain/public_html/photo_new/test_32.php on line 366
+[23-Apr-2017 06:36:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/swain/public_html/photo_new/test_32.php on line 366
+[23-Apr-2017 06:47:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'temp_col' (T_STRING), expecting ',' or ';' in /home4/swain/public_html/photo_new/test_32.php on line 407
+[23-Apr-2017 06:47:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'temp_col' (T_STRING), expecting ',' or ';' in /home4/swain/public_html/photo_new/test_32.php on line 407
+[23-Apr-2017 06:47:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'temp_col' (T_STRING), expecting ',' or ';' in /home4/swain/public_html/photo_new/test_32.php on line 407
+[23-Apr-2017 06:47:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'temp_col' (T_STRING), expecting ',' or ';' in /home4/swain/public_html/photo_new/test_32.php on line 407
+[23-Apr-2017 06:47:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'temp_col' (T_STRING), expecting ',' or ';' in /home4/swain/public_html/photo_new/test_32.php on line 407
+[23-Apr-2017 11:31:44 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/swain/public_html/photo_new/test_32.php on line 418
+[23-Apr-2017 11:33:12 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/swain/public_html/photo_new/test_32.php on line 418
+[23-Apr-2017 11:43:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /home4/swain/public_html/photo_new/test_32.php on line 369
+[26-Apr-2017 13:45:23 America/Chicago] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home4/swain/public_html/photo_new/test2.php on line 79
+[26-Apr-2017 13:50:17 America/Chicago] PHP Fatal error:  Call to undefined function createimagefrom() in /home4/swain/public_html/photo_new/test2.php on line 79
+[26-Apr-2017 13:50:55 America/Chicago] PHP Fatal error:  Call to undefined function imagecreatefrom() in /home4/swain/public_html/photo_new/test2.php on line 79
+[26-Apr-2017 13:52:07 America/Chicago] PHP Warning:  imagejpeg(): Invalid 2nd parameter, it must a filename or a stream in /home4/swain/public_html/photo_new/test2.php on line 79
+[26-Apr-2017 13:53:23 America/Chicago] PHP Warning:  imagecreatefromjpeg(templates/20160223_010232.jpgjpg): failed to open stream: No such file or directory in /home4/swain/public_html/photo_new/test2.php on line 79
+[26-Apr-2017 13:53:23 America/Chicago] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/test2.php on line 79
+[26-Apr-2017 13:54:15 America/Chicago] PHP Warning:  imagecreatefromjpeg(templates/20160223_010232.jpg.jpg): failed to open stream: No such file or directory in /home4/swain/public_html/photo_new/test2.php on line 79
+[26-Apr-2017 13:54:15 America/Chicago] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/test2.php on line 79
+[26-Apr-2017 13:54:50 America/Chicago] PHP Warning:  imagecreatefromjpeg(templates/20160223_010232.jpg.jpeg): failed to open stream: No such file or directory in /home4/swain/public_html/photo_new/test2.php on line 79
+[26-Apr-2017 13:54:50 America/Chicago] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/test2.php on line 79
+[26-Apr-2017 13:56:12 America/Chicago] PHP Warning:  imagecreatefromjpeg(templates/20160223_010232.jpg.jpeg): failed to open stream: No such file or directory in /home4/swain/public_html/photo_new/test2.php on line 79
+[26-Apr-2017 13:56:12 America/Chicago] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/test2.php on line 79
+[26-Apr-2017 13:58:23 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/swain/public_html/photo_new/test2.php on line 81
+[26-Apr-2017 13:58:33 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/swain/public_html/photo_new/test2.php on line 81
+[30-Apr-2017 10:01:55 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home4/swain/public_html/photo_new/test2.php on line 29
+[30-Apr-2017 10:02:18 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home4/swain/public_html/photo_new/test2.php on line 29
+[30-Apr-2017 10:04:06 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home4/swain/public_html/photo_new/test2.php on line 29
+[30-Apr-2017 10:04:07 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home4/swain/public_html/photo_new/test2.php on line 29
+[30-Apr-2017 10:07:47 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home4/swain/public_html/photo_new/test2.php on line 211
+[30-Apr-2017 10:07:48 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home4/swain/public_html/photo_new/test2.php on line 211
+[01-May-2017 01:42:36 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home4/swain/public_html/photo_new/payment.php on line 11
+[01-May-2017 03:27:58 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home4/swain/public_html/photo_new/test2.php on line 163
+[01-May-2017 03:28:00 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home4/swain/public_html/photo_new/test2.php on line 163
+[01-May-2017 03:33:15 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/swain/public_html/photo_new/test2.php on line 172
+[01-May-2017 04:02:37 America/Chicago] PHP Parse error:  syntax error, unexpected '$temp_mid' (T_VARIABLE) in /home4/swain/public_html/photo_new/test2.php on line 39
+[01-May-2017 04:24:23 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[01-May-2017 04:24:23 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[01-May-2017 04:24:23 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:24:23 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:24:23 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:24:23 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[01-May-2017 04:24:23 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[01-May-2017 04:27:01 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[01-May-2017 04:27:01 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[01-May-2017 04:27:01 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:27:01 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:27:01 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:27:01 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[01-May-2017 04:27:01 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[01-May-2017 04:28:11 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[01-May-2017 04:28:11 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[01-May-2017 04:28:11 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:28:11 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:28:11 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:28:11 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[01-May-2017 04:28:11 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[01-May-2017 04:34:51 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[01-May-2017 04:34:51 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[01-May-2017 04:34:51 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:34:51 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:34:51 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:34:51 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[01-May-2017 04:34:51 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[01-May-2017 04:35:24 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[01-May-2017 04:35:24 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[01-May-2017 04:35:24 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:35:24 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:35:24 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 04:35:24 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[01-May-2017 04:35:24 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[01-May-2017 13:15:31 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[01-May-2017 13:15:31 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[01-May-2017 13:15:31 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 13:15:31 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 13:15:31 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[01-May-2017 13:15:31 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[01-May-2017 13:15:31 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[14-May-2017 02:20:24 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[14-May-2017 02:20:24 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[14-May-2017 02:20:24 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[14-May-2017 02:20:24 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[14-May-2017 02:20:24 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[14-May-2017 02:20:24 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[14-May-2017 02:20:24 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[01-Jun-2017 16:20:16 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[19-Jun-2017 06:30:52 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 160
+[19-Jun-2017 06:30:52 America/Chicago] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 161
+[19-Jun-2017 06:30:52 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[19-Jun-2017 06:30:52 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[19-Jun-2017 06:30:52 America/Chicago] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 162
+[19-Jun-2017 06:30:52 America/Chicago] PHP Warning:  imagettftext() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 165
+[19-Jun-2017 06:30:52 America/Chicago] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home4/swain/public_html/photo_new/PHPImageWorkshop/Core/ImageWorkshopLib.php on line 187
+[04-Jul-2017 13:36:59 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[17-Jul-2017 17:12:06 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[17-Aug-2017 22:27:00 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[18-Aug-2017 13:50:54 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[02-Sep-2017 03:20:49 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
+[11-Sep-2017 22:28:17 America/Chicago] PHP Fatal error:  Uncaught PHPImageWorkshop\Exception\ImageWorkshopBaseException: [2]: File "" not exists.
+
+  thrown in /home4/swain/public_html/photo_new/PHPImageWorkshop/ImageWorkshop.php on line 58
