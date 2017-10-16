@@ -1,0 +1,235 @@
+
+gpibvc.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000136  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .bss          00000001  00800060  00800060  000001aa  2**0
+                  ALLOC
+  2 .stab         000006cc  00000000  00000000  000001ac  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  3 .stabstr      00000085  00000000  00000000  00000878  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_aranges 00000080  00000000  00000000  00000900  2**3
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   000003a7  00000000  00000000  00000980  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 000000fa  00000000  00000000  00000d27  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   0000029a  00000000  00000000  00000e21  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  000000ac  00000000  00000000  000010bc  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    000000db  00000000  00000000  00001168  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    000000cb  00000000  00000000  00001243  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
+   4:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+   8:	0c 94 6b 00 	jmp	0xd6	; 0xd6 <__vector_2>
+   c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  10:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  14:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  18:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  1c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  20:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  24:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  28:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  2c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  30:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  34:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  38:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  3c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  40:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  44:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  48:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  4c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  50:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+
+00000054 <__ctors_end>:
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d8 e0       	ldi	r29, 0x08	; 8
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+
+00000060 <__do_copy_data>:
+  60:	10 e0       	ldi	r17, 0x00	; 0
+  62:	a0 e6       	ldi	r26, 0x60	; 96
+  64:	b0 e0       	ldi	r27, 0x00	; 0
+  66:	e6 e3       	ldi	r30, 0x36	; 54
+  68:	f1 e0       	ldi	r31, 0x01	; 1
+  6a:	02 c0       	rjmp	.+4      	; 0x70 <__do_copy_data+0x10>
+  6c:	05 90       	lpm	r0, Z+
+  6e:	0d 92       	st	X+, r0
+  70:	a0 36       	cpi	r26, 0x60	; 96
+  72:	b1 07       	cpc	r27, r17
+  74:	d9 f7       	brne	.-10     	; 0x6c <__do_copy_data+0xc>
+
+00000076 <__do_clear_bss>:
+  76:	10 e0       	ldi	r17, 0x00	; 0
+  78:	a0 e6       	ldi	r26, 0x60	; 96
+  7a:	b0 e0       	ldi	r27, 0x00	; 0
+  7c:	01 c0       	rjmp	.+2      	; 0x80 <.do_clear_bss_start>
+
+0000007e <.do_clear_bss_loop>:
+  7e:	1d 92       	st	X+, r1
+
+00000080 <.do_clear_bss_start>:
+  80:	a1 36       	cpi	r26, 0x61	; 97
+  82:	b1 07       	cpc	r27, r17
+  84:	e1 f7       	brne	.-8      	; 0x7e <.do_clear_bss_loop>
+  86:	0e 94 61 00 	call	0xc2	; 0xc2 <main>
+  8a:	0c 94 99 00 	jmp	0x132	; 0x132 <_exit>
+
+0000008e <__bad_interrupt>:
+  8e:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000092 <Interrupt_enable>:
+
+uint8_t data =0;
+
+void Interrupt_enable()
+{
+	MCUCR |= ((1<<ISC11));
+  92:	85 b7       	in	r24, 0x35	; 53
+  94:	88 60       	ori	r24, 0x08	; 8
+  96:	85 bf       	out	0x35, r24	; 53
+	GICR |= ((1<<INT1));//int1 enable
+  98:	8b b7       	in	r24, 0x3b	; 59
+  9a:	80 68       	ori	r24, 0x80	; 128
+  9c:	8b bf       	out	0x3b, r24	; 59
+	GIFR |= ((1<<INTF1));
+  9e:	8a b7       	in	r24, 0x3a	; 58
+  a0:	80 68       	ori	r24, 0x80	; 128
+  a2:	8a bf       	out	0x3a, r24	; 58
+	//G_HandshakeDDR &= ~(1<<DAV);
+	//G_Handshake |= (1<<DAV);	
+}
+  a4:	08 95       	ret
+
+000000a6 <uart_init>:
+
+void uart_init()
+{
+	UBRRH=(baud_pre>>8);
+  a6:	10 bc       	out	0x20, r1	; 32
+	UBRRL=baud_pre;
+  a8:	89 e1       	ldi	r24, 0x19	; 25
+  aa:	89 b9       	out	0x09, r24	; 9
+	UCSRB |=(1<<TXEN) |(1<<RXEN);
+  ac:	8a b1       	in	r24, 0x0a	; 10
+  ae:	88 61       	ori	r24, 0x18	; 24
+  b0:	8a b9       	out	0x0a, r24	; 10
+	UCSRC |= (1<<URSEL) | (1<<UCSZ0) |(1<<UCSZ1);
+  b2:	80 b5       	in	r24, 0x20	; 32
+  b4:	86 68       	ori	r24, 0x86	; 134
+  b6:	80 bd       	out	0x20, r24	; 32
+}
+  b8:	08 95       	ret
+
+000000ba <uart_write>:
+
+void uart_write(uint8_t data)
+{
+	UDR = data;
+  ba:	8c b9       	out	0x0c, r24	; 12
+	while(!(UCSRA &(1<<UDRE)));
+  bc:	5d 9b       	sbis	0x0b, 5	; 11
+  be:	fe cf       	rjmp	.-4      	; 0xbc <uart_write+0x2>
+}
+  c0:	08 95       	ret
+
+000000c2 <main>:
+
+int main(void)
+{
+	uart_init();	
+  c2:	0e 94 53 00 	call	0xa6	; 0xa6 <uart_init>
+	Interrupt_enable();
+  c6:	0e 94 49 00 	call	0x92	; 0x92 <Interrupt_enable>
+	G_HandshakeDDR |= ((1<<NRFD)|(1<<NDAC));
+  ca:	81 b3       	in	r24, 0x11	; 17
+  cc:	80 63       	ori	r24, 0x30	; 48
+  ce:	81 bb       	out	0x11, r24	; 17
+	//DDRA = 0x00;
+	//G_Port = 0xff;
+	
+	sei();
+  d0:	78 94       	sei
+	//G_Handshake &= ~(1<<NDAC);
+	G_Handshake |= (1<<NRFD);
+  d2:	94 9a       	sbi	0x12, 4	; 18
+  d4:	ff cf       	rjmp	.-2      	; 0xd4 <main+0x12>
+
+000000d6 <__vector_2>:
+		;		
+    }
+}
+
+ISR(INT1_vect)
+{
+  d6:	1f 92       	push	r1
+  d8:	0f 92       	push	r0
+  da:	0f b6       	in	r0, 0x3f	; 63
+  dc:	0f 92       	push	r0
+  de:	11 24       	eor	r1, r1
+  e0:	2f 93       	push	r18
+  e2:	3f 93       	push	r19
+  e4:	4f 93       	push	r20
+  e6:	5f 93       	push	r21
+  e8:	6f 93       	push	r22
+  ea:	7f 93       	push	r23
+  ec:	8f 93       	push	r24
+  ee:	9f 93       	push	r25
+  f0:	af 93       	push	r26
+  f2:	bf 93       	push	r27
+  f4:	ef 93       	push	r30
+  f6:	ff 93       	push	r31
+	G_Handshake &= ~(1<<NRFD);
+  f8:	94 98       	cbi	0x12, 4	; 18
+	G_Handshake |= (1<<NDAC);
+  fa:	95 9a       	sbi	0x12, 5	; 18
+	data = ~(PINA);
+  fc:	89 b3       	in	r24, 0x19	; 25
+  fe:	80 95       	com	r24
+ 100:	80 93 60 00 	sts	0x0060, r24
+	uart_write(data);
+ 104:	0e 94 5d 00 	call	0xba	; 0xba <uart_write>
+	while (bit_is_clear(PIND,3));
+ 108:	83 9b       	sbis	0x10, 3	; 16
+ 10a:	fe cf       	rjmp	.-4      	; 0x108 <__vector_2+0x32>
+	G_Handshake &= ~(1<<NDAC);
+ 10c:	95 98       	cbi	0x12, 5	; 18
+	G_Handshake |= (1<<NRFD);
+ 10e:	94 9a       	sbi	0x12, 4	; 18
+}
+ 110:	ff 91       	pop	r31
+ 112:	ef 91       	pop	r30
+ 114:	bf 91       	pop	r27
+ 116:	af 91       	pop	r26
+ 118:	9f 91       	pop	r25
+ 11a:	8f 91       	pop	r24
+ 11c:	7f 91       	pop	r23
+ 11e:	6f 91       	pop	r22
+ 120:	5f 91       	pop	r21
+ 122:	4f 91       	pop	r20
+ 124:	3f 91       	pop	r19
+ 126:	2f 91       	pop	r18
+ 128:	0f 90       	pop	r0
+ 12a:	0f be       	out	0x3f, r0	; 63
+ 12c:	0f 90       	pop	r0
+ 12e:	1f 90       	pop	r1
+ 130:	18 95       	reti
+
+00000132 <_exit>:
+ 132:	f8 94       	cli
+
+00000134 <__stop_program>:
+ 134:	ff cf       	rjmp	.-2      	; 0x134 <__stop_program>
